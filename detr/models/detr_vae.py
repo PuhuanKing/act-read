@@ -209,6 +209,7 @@ def mlp(input_dim, hidden_dim, output_dim, hidden_depth):
     return trunk
 
 
+
 def build_encoder(args):
     d_model = args.hidden_dim # 256
     dropout = args.dropout # 0.1
